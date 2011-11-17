@@ -4,14 +4,11 @@ class UsersController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        // $this->Auth->allow('login');
     }
 
 	public function login() {
 		if ($this->request->is('post')) {
 			if($this->Auth->login()) {
-				// the redirect() function in the Auth class redirects us
-				// to the url we set up in the AppController.
 				return $this->redirect($this->Auth->redirect());
 			} else {
 				$this->Session->setFlash('Login is incorrect');
@@ -81,4 +78,5 @@ class UsersController extends AppController {
 		$this->Session->setFlash(__('User was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+
 }
