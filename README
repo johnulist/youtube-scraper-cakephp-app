@@ -1,0 +1,22 @@
+search and import youtube videos - simple php mysql application example using the cakephp framework...
+
+Installation:
+
+git clone git@github.com:andraskende/youtube-scraper-cakephp-app.git /var/www/domain.com/
+
+cd /var/www/domain.com/
+
+git submodule init
+
+git submodule update
+
+copy Config/database.php.default to Config/database.php and edit database settings
+
+import .sql files from Confif/Schema
+
+chmod -R 777 tmp/
+
+domain.com/admin/videos/
+
+default admin login:  admin/admin
+
