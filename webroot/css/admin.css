@@ -1,0 +1,193 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: 11px/1.5 Verdana, Arial, sans-serif;
+	background: #f4f4f4;
+	border-top: 5px solid #000;
+}
+
+a:focus {
+	outline: 1px dotted;
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+h4 {
+	font-size: 13px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 11px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+li {
+	margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+	margin-bottom: 0px;
+}
+
+
+#content {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+
+#main {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 20px;
+}
+
+.addthis_toolbox {
+	width: 180px;
+	background-color: #FFF;
+	padding: 10px 0 5px 10px;
+	border: 1px solid #aaa;
+}
+
+table {
+  background-color: #fff;
+  border: 0px solid #AAA;
+  clear: both;
+  color: #333;
+  border-collapse: collapse;
+  padding:0px;
+  border-spacing: 0px;
+}
+
+th {
+  background-color: #EEE;
+  color: #333;
+  padding: 1px;
+  font-size:11px;
+  font-weight: bold;
+  border: 1px solid #BBB;
+  text-align: left;
+}
+
+td {
+  color: #333;
+  padding: 2px;
+  font-size: 100%;
+  border: 1px solid #DDD;
+  font-size:11px;
+}
+
+img {
+	border: 0px solid #666;
+}
+
+.menu{
+	width: 100%;
+	overflow: hidden;
+	background-color: #333;
+	/*border-top: 5px solid #EEE;*/
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	padding-left: 1px;
+	font: normal 100% Verdana;
+	list-style-type: none;
+}
+
+.menu li{
+	display: inline;
+	margin: 0;
+}
+
+.menu li a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	padding: 7px 8px;
+	border-right: 1px solid #777;
+	color: white;
+/*	background-image: url("/img/nav_bg.png");*/
+}
+
+.menu li a:visited{
+	color: white;
+}
+
+.menu li a:hover, .menu li.selected a{
+	background: #333333;
+}
+
+.c {
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+.table_small td {
+	  color: #000;
+	  padding: 2px;
+	  border: 1px solid #DDD;
+	  font-size:10px;
+}
+
+tr.alt td { background: #FFFFFF; }
+tr.odd td { background: #F8F8F8; }
+tr.hover td { background: #EEEEEE; }

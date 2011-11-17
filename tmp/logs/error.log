@@ -1,0 +1,88 @@
+2011-11-17 02:15:30 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:17:06 Error: [MissingTableException] Database table lyrics for model Lyric was not found.
+#0 /Users/andras/Sites/1.kende.local/core/lib/Cake/Model/Model.php(3238): Model->setSource('lyrics')
+#1 /Users/andras/Sites/1.kende.local/core/lib/Cake/Model/Datasource/DboSource.php(1026): Model->getDataSource()
+#2 /Users/andras/Sites/1.kende.local/core/lib/Cake/Model/Model.php(2460): DboSource->read(Object(Video), Array)
+#3 /Users/andras/Sites/1.kende.local/core/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#4 /Users/andras/Sites/1.kende.local/core/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Users/andras/Sites/1.kende.local/Controller/VideosController.php(315): Controller->paginate()
+#6 [internal function]: VideosController->admin_index()
+#7 /Users/andras/Sites/1.kende.local/core/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#8 /Users/andras/Sites/1.kende.local/core/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/andras/Sites/1.kende.local/core/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-11-17 02:27:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:27:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:31:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:33:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:33:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 02:33:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /Users/andras/Sites/1.kende.local/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
