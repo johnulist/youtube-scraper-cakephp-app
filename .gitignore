@@ -1,3 +1,6 @@
 .DS_Store
 core
 Config/database.php
+tmp/cache/models/*
+tmp/cache/persistent/*
+tmp/cache/views/*

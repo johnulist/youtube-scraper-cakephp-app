@@ -16,7 +16,7 @@
  *
  * @copyright     Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
  * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.Config
+ * @package       app.config
  * @since         CakePHP(tm) v 0.2.9
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
@@ -25,11 +25,22 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	// Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+	// Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+
+
+	Router::connect('/', array('controller' => 'videos', 'action' => 'index'));
+
+	Router::connect('/search', array('controller' => 'videos', 'action' => 'search'));
+
+	Router::connect('/sitemap.xml', array('controller' => 'videos', 'action' => 'sitemap'));
+
+	Router::connect('/:slug', array('controller' => 'videos', 'action' => 'view'), array('pass' => array('slug')));
+
+	Router::parseExtensions('json');
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
