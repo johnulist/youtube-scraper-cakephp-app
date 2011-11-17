@@ -1,5 +1,5 @@
 .DS_Store
-
+cake
 Config/database.php
 tmp/cache/models/*
 tmp/cache/persistent/*
