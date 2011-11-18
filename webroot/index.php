@@ -58,7 +58,7 @@
  */
 	//define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'lib');
 	
-	define('CAKE_CORE_INCLUDE_PATH', dirname(dirname(__FILE__)) . DS . 'core' . DS . 'lib');
+	define('CAKE_CORE_INCLUDE_PATH', dirname(dirname(__FILE__)) . DS . 'cakephp' . DS . 'lib');
 	
 
 /**
