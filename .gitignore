@@ -6,5 +6,3 @@ tmp/cache/persistent/*
 tmp/cache/views/*
 tmp/logs/error.log
 tmp/logs/*
-
-
