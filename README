@@ -1,7 +1,6 @@
-search and import youtube videos - simple php mysql application example using the cakephp framework...
+search and import youtube videos simple php mysql application example using the CakePHP php framework...
 
-
-
+////////////////////////////////////////////////////////////////////
 
 Installation:
 
@@ -23,3 +22,6 @@ domain.com/admin/videos/
 
 admin login:  admin/admin
 
+////////////////////////////////////////////////////////////////////
+
+Andras Kende http://www.kende.com/
